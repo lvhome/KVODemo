@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFAFE10F219C057900FFEBE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE10E219C057900FFEBE6 /* AppDelegate.m */; };
+		FFAFE112219C057900FFEBE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE111219C057900FFEBE6 /* ViewController.m */; };
+		FFAFE115219C057900FFEBE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAFE113219C057900FFEBE6 /* Main.storyboard */; };
+		FFAFE117219C057900FFEBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFAFE116219C057900FFEBE6 /* Assets.xcassets */; };
+		FFAFE11A219C057900FFEBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFAFE118219C057900FFEBE6 /* LaunchScreen.storyboard */; };
+		FFAFE11D219C057900FFEBE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE11C219C057900FFEBE6 /* main.m */; };
+		FFAFE127219C057A00FFEBE6 /* KVOandKVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE126219C057A00FFEBE6 /* KVOandKVCTests.m */; };
+		FFAFE132219C057A00FFEBE6 /* KVOandKVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE131219C057A00FFEBE6 /* KVOandKVCUITests.m */; };
+		FFAFE141219C074B00FFEBE6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFAFE140219C074B00FFEBE6 /* WebKit.framework */; };
+		FFAFE144219C1EF100FFEBE6 /* LHModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE143219C1EF100FFEBE6 /* LHModel.m */; };
+		FFAFE147219C248000FFEBE6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE146219C248000FFEBE6 /* WebViewController.m */; };
+		FFAFE14A219C26A300FFEBE6 /* ModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE149219C26A300FFEBE6 /* ModelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFAFE123219C057A00FFEBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFAFE102219C057900FFEBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFAFE109219C057900FFEBE6;
+			remoteInfo = KVOandKVC;
+		};
+		FFAFE12E219C057A00FFEBE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFAFE102219C057900FFEBE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFAFE109219C057900FFEBE6;
+			remoteInfo = KVOandKVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFAFE10A219C057900FFEBE6 /* KVOandKVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOandKVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAFE10D219C057900FFEBE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFAFE10E219C057900FFEBE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFAFE110219C057900FFEBE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFAFE111219C057900FFEBE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFAFE114219C057900FFEBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFAFE116219C057900FFEBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFAFE119219C057900FFEBE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFAFE11B219C057900FFEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFAFE11C219C057900FFEBE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFAFE122219C057A00FFEBE6 /* KVOandKVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOandKVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAFE126219C057A00FFEBE6 /* KVOandKVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOandKVCTests.m; sourceTree = "<group>"; };
+		FFAFE128219C057A00FFEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFAFE12D219C057A00FFEBE6 /* KVOandKVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOandKVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAFE131219C057A00FFEBE6 /* KVOandKVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOandKVCUITests.m; sourceTree = "<group>"; };
+		FFAFE133219C057A00FFEBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFAFE140219C074B00FFEBE6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FFAFE142219C1EF100FFEBE6 /* LHModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHModel.h; sourceTree = "<group>"; };
+		FFAFE143219C1EF100FFEBE6 /* LHModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHModel.m; sourceTree = "<group>"; };
+		FFAFE145219C248000FFEBE6 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FFAFE146219C248000FFEBE6 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FFAFE148219C26A300FFEBE6 /* ModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelViewController.h; sourceTree = "<group>"; };
+		FFAFE149219C26A300FFEBE6 /* ModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFAFE107219C057900FFEBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAFE141219C074B00FFEBE6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAFE11F219C057A00FFEBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAFE12A219C057A00FFEBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFAFE101219C057900FFEBE6 = {
+			isa = PBXGroup;
+			children = (
+				FFAFE10C219C057900FFEBE6 /* KVOandKVC */,
+				FFAFE125219C057A00FFEBE6 /* KVOandKVCTests */,
+				FFAFE130219C057A00FFEBE6 /* KVOandKVCUITests */,
+				FFAFE10B219C057900FFEBE6 /* Products */,
+				FFAFE13F219C074B00FFEBE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFAFE10B219C057900FFEBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFAFE10A219C057900FFEBE6 /* KVOandKVC.app */,
+				FFAFE122219C057A00FFEBE6 /* KVOandKVCTests.xctest */,
+				FFAFE12D219C057A00FFEBE6 /* KVOandKVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFAFE10C219C057900FFEBE6 /* KVOandKVC */ = {
+			isa = PBXGroup;
+			children = (
+				FFAFE10D219C057900FFEBE6 /* AppDelegate.h */,
+				FFAFE10E219C057900FFEBE6 /* AppDelegate.m */,
+				FFAFE110219C057900FFEBE6 /* ViewController.h */,
+				FFAFE111219C057900FFEBE6 /* ViewController.m */,
+				FFAFE142219C1EF100FFEBE6 /* LHModel.h */,
+				FFAFE143219C1EF100FFEBE6 /* LHModel.m */,
+				FFAFE145219C248000FFEBE6 /* WebViewController.h */,
+				FFAFE146219C248000FFEBE6 /* WebViewController.m */,
+				FFAFE148219C26A300FFEBE6 /* ModelViewController.h */,
+				FFAFE149219C26A300FFEBE6 /* ModelViewController.m */,
+				FFAFE113219C057900FFEBE6 /* Main.storyboard */,
+				FFAFE116219C057900FFEBE6 /* Assets.xcassets */,
+				FFAFE118219C057900FFEBE6 /* LaunchScreen.storyboard */,
+				FFAFE11B219C057900FFEBE6 /* Info.plist */,
+				FFAFE11C219C057900FFEBE6 /* main.m */,
+			);
+			path = KVOandKVC;
+			sourceTree = "<group>";
+		};
+		FFAFE125219C057A00FFEBE6 /* KVOandKVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFAFE126219C057A00FFEBE6 /* KVOandKVCTests.m */,
+				FFAFE128219C057A00FFEBE6 /* Info.plist */,
+			);
+			path = KVOandKVCTests;
+			sourceTree = "<group>";
+		};
+		FFAFE130219C057A00FFEBE6 /* KVOandKVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFAFE131219C057A00FFEBE6 /* KVOandKVCUITests.m */,
+				FFAFE133219C057A00FFEBE6 /* Info.plist */,
+			);
+			path = KVOandKVCUITests;
+			sourceTree = "<group>";
+		};
+		FFAFE13F219C074B00FFEBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFAFE140219C074B00FFEBE6 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFAFE109219C057900FFEBE6 /* KVOandKVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAFE136219C057A00FFEBE6 /* Build configuration list for PBXNativeTarget "KVOandKVC" */;
+			buildPhases = (
+				FFAFE106219C057900FFEBE6 /* Sources */,
+				FFAFE107219C057900FFEBE6 /* Frameworks */,
+				FFAFE108219C057900FFEBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOandKVC;
+			productName = KVOandKVC;
+			productReference = FFAFE10A219C057900FFEBE6 /* KVOandKVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFAFE121219C057A00FFEBE6 /* KVOandKVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAFE139219C057A00FFEBE6 /* Build configuration list for PBXNativeTarget "KVOandKVCTests" */;
+			buildPhases = (
+				FFAFE11E219C057A00FFEBE6 /* Sources */,
+				FFAFE11F219C057A00FFEBE6 /* Frameworks */,
+				FFAFE120219C057A00FFEBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFAFE124219C057A00FFEBE6 /* PBXTargetDependency */,
+			);
+			name = KVOandKVCTests;
+			productName = KVOandKVCTests;
+			productReference = FFAFE122219C057A00FFEBE6 /* KVOandKVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFAFE12C219C057A00FFEBE6 /* KVOandKVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFAFE13C219C057A00FFEBE6 /* Build configuration list for PBXNativeTarget "KVOandKVCUITests" */;
+			buildPhases = (
+				FFAFE129219C057A00FFEBE6 /* Sources */,
+				FFAFE12A219C057A00FFEBE6 /* Frameworks */,
+				FFAFE12B219C057A00FFEBE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFAFE12F219C057A00FFEBE6 /* PBXTargetDependency */,
+			);
+			name = KVOandKVCUITests;
+			productName = KVOandKVCUITests;
+			productReference = FFAFE12D219C057A00FFEBE6 /* KVOandKVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFAFE102219C057900FFEBE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					FFAFE109219C057900FFEBE6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FFAFE121219C057A00FFEBE6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFAFE109219C057900FFEBE6;
+					};
+					FFAFE12C219C057A00FFEBE6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFAFE109219C057900FFEBE6;
+					};
+				};
+			};
+			buildConfigurationList = FFAFE105219C057900FFEBE6 /* Build configuration list for PBXProject "KVOandKVC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFAFE101219C057900FFEBE6;
+			productRefGroup = FFAFE10B219C057900FFEBE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFAFE109219C057900FFEBE6 /* KVOandKVC */,
+				FFAFE121219C057A00FFEBE6 /* KVOandKVCTests */,
+				FFAFE12C219C057A00FFEBE6 /* KVOandKVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFAFE108219C057900FFEBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAFE11A219C057900FFEBE6 /* LaunchScreen.storyboard in Resources */,
+				FFAFE117219C057900FFEBE6 /* Assets.xcassets in Resources */,
+				FFAFE115219C057900FFEBE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAFE120219C057A00FFEBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAFE12B219C057A00FFEBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFAFE106219C057900FFEBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAFE112219C057900FFEBE6 /* ViewController.m in Sources */,
+				FFAFE147219C248000FFEBE6 /* WebViewController.m in Sources */,
+				FFAFE144219C1EF100FFEBE6 /* LHModel.m in Sources */,
+				FFAFE11D219C057900FFEBE6 /* main.m in Sources */,
+				FFAFE14A219C26A300FFEBE6 /* ModelViewController.m in Sources */,
+				FFAFE10F219C057900FFEBE6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAFE11E219C057A00FFEBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAFE127219C057A00FFEBE6 /* KVOandKVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFAFE129219C057A00FFEBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFAFE132219C057A00FFEBE6 /* KVOandKVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFAFE124219C057A00FFEBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFAFE109219C057900FFEBE6 /* KVOandKVC */;
+			targetProxy = FFAFE123219C057A00FFEBE6 /* PBXContainerItemProxy */;
+		};
+		FFAFE12F219C057A00FFEBE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFAFE109219C057900FFEBE6 /* KVOandKVC */;
+			targetProxy = FFAFE12E219C057A00FFEBE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFAFE113219C057900FFEBE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFAFE114219C057900FFEBE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFAFE118219C057900FFEBE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFAFE119219C057900FFEBE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFAFE134219C057A00FFEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFAFE135219C057A00FFEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFAFE137219C057A00FFEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVOandKVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.KVOandKVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFAFE138219C057A00FFEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVOandKVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.KVOandKVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFAFE13A219C057A00FFEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVOandKVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.KVOandKVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVOandKVC.app/KVOandKVC";
+			};
+			name = Debug;
+		};
+		FFAFE13B219C057A00FFEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVOandKVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.KVOandKVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVOandKVC.app/KVOandKVC";
+			};
+			name = Release;
+		};
+		FFAFE13D219C057A00FFEBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVOandKVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.KVOandKVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KVOandKVC;
+			};
+			name = Debug;
+		};
+		FFAFE13E219C057A00FFEBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KVOandKVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Lv.KVOandKVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KVOandKVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFAFE105219C057900FFEBE6 /* Build configuration list for PBXProject "KVOandKVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAFE134219C057A00FFEBE6 /* Debug */,
+				FFAFE135219C057A00FFEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAFE136219C057A00FFEBE6 /* Build configuration list for PBXNativeTarget "KVOandKVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAFE137219C057A00FFEBE6 /* Debug */,
+				FFAFE138219C057A00FFEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAFE139219C057A00FFEBE6 /* Build configuration list for PBXNativeTarget "KVOandKVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAFE13A219C057A00FFEBE6 /* Debug */,
+				FFAFE13B219C057A00FFEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFAFE13C219C057A00FFEBE6 /* Build configuration list for PBXNativeTarget "KVOandKVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFAFE13D219C057A00FFEBE6 /* Debug */,
+				FFAFE13E219C057A00FFEBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFAFE102219C057900FFEBE6 /* Project object */;
+}
